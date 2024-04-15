@@ -224,7 +224,32 @@ transform: translate(-42px, 45px)
   position: absolute;
   transform: translate(-42px, 45px)
 }
+.tatoo {
+  position: relative;
+}
 
+.tatoo::before {
+  display: block;
+  content: '';
+  width: 2px;
+  height: 122px;
+  background-color: var(--bcg-title);
+  position: absolute;
+  transform: translate(-42px, 45px)
+}
+.house {
+  position: relative;
+}
+
+.house::before {
+  display: block;
+  content: '';
+  width: 2px;
+  height: 142px;
+  background-color: var(--bcg-title);
+  position: absolute;
+  transform: translate(-42px, 45px)
+}
 .chocolate {
   position: relative;
 }
@@ -437,7 +462,7 @@ transform: translate(-30px, 10px);
 .seidbar-bcg-lang {
   margin: 0 auto;
   width: 500px;
-  height: 500px;
+ height: 690px;
   background-color: var(--bcg-seidbar); 
   padding: 30px 30px 60px;
 }
